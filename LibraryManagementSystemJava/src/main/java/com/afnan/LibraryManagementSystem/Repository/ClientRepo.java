@@ -1,0 +1,10 @@
+package com.afnan.LibraryManagementSystem.Repository;
+
+import com.afnan.LibraryManagementSystem.Entity.Client;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ClientRepo extends CrudRepository<Client,String> {
+    public Client findByUsn(String usn);
+}
