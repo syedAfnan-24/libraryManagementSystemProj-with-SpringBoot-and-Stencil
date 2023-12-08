@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+div{
+  background-color: rgb(184, 183, 183);
+  color: rgb(46, 45, 45);
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}     
+#copy-rights{
+  font-size: 20px;
+}
+#sub-para{
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: rgb(2, 152, 2);
+  transition: all 0.3s ease;
+}
+a:hover{
+  color: rgb(5, 179, 5);
+  text-shadow: 1px 1px rgba(0, 128, 0, 0.199);
+}

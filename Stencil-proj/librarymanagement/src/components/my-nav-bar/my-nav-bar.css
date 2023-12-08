@@ -1,0 +1,90 @@
+*{
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#nav-link:hover {
+    color: #02c912;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.dropdown-menu {
+    position: fixed; /* Fixed positioning to keep it in the viewport */
+    top: 60; /*Position at the top of the viewport*/
+    margin: 150px 10px 0 0;
+    right: 0; /* Position at the left of the viewport */
+    z-index: 9999; /* Set a high z-index value to appear above other elements */
+    background-color: #1c1c1cd9; /* Background color for the dropdown menu */
+    padding: 10px; /* Add padding for the content inside the dropdown menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.733); /* Add a box shadow for a subtle elevation effect */
+    display: none;
+}
+#nav-link-dropdown{
+    text-decoration: none;
+    color: white;
+    margin:  15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+#nav-link-dropdown:hover{
+    color: #02c912;
+}
+.bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+#cross{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(217, 217, 217);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:5px 10px 5px;
+}
+
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        color: white;
+    }
+
+    .dropdown-menu{
+        display: block;
+    }
+}  
+

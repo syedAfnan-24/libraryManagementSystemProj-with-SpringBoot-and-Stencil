@@ -1,0 +1,95 @@
+:host {
+    display: block;
+  }
+  *{
+    font-family: sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+  .container {
+    background-color: rgb(244, 244, 244);
+    /* max-width: 500px; */
+    padding: 70px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.189);
+    display: flex;
+    justify-content: space-around;
+  }
+  @media(max-width: 600px){
+    .container{
+      flex-direction: column;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    margin: 10px;
+    padding: 10px;
+  }
+  button{
+    padding: 10px;
+    margin:10px 30% 0 30%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 195, 0);
+    transition: all 0.3s ease;
+  }
+  button:hover{
+    background-color: rgb(32, 208, 32);
+    box-shadow: 0 0 10px rgba(3, 229, 3, 0.826);
+  }
+  /* Style for the Booktable container */
+.Booktable {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+}
+.btn-div button{
+  background-color: #80808044;
+  margin: 2px;
+}
+/* Style for the table */
+.Booktable table {
+    border-collapse:collapse;
+    padding: 100px;
+}
+th{
+    background-color: aliceblue;
+    padding:100%;
+}
+td{
+    background-color: rgba(214, 213, 213, 0.253);
+}
+tr{
+    transition: all 0.3s ease;
+}
+tr:hover{
+    background-color: rgba(214, 213, 213, 0.712);
+}
+
+td,th{
+    padding: 5px;
+}
+#delete-btn{
+    background-color: rgb(232, 5, 5);
+    margin: 0;
+}
+#delete-btn:hover{
+    box-shadow: 0 0 5px rgb(232, 12, 12);
+}
+
+#edit-btn{
+    background-color: rgb(2, 177, 2);
+    margin: 0;
+}
+

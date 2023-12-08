@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+*{
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+}
+.container {
+  background-color: rgb(244, 244, 244);
+  max-width: 500px;
+  padding: 70px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.189);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin: 10px;
+  padding: 10px;
+}
+button{
+  padding: 10px;
+  margin:10px 30% 0 30%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0, 195, 0);
+  transition: all 0.3s ease;
+}
+button:hover{
+  background-color: rgb(32, 208, 32);
+  box-shadow: 0 0 10px rgba(3, 229, 3, 0.826);
+}
